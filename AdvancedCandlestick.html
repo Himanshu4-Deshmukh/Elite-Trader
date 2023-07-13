@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Advanced Candlestick Pattern</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="png.img\elite.png" rel="icon">
+  <link href="png.img\elite.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!--  Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css">
+
+
+  <!-- JavaScript libraries -->
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="/assets/css/darkmode.css">
+
+ 
+
+  </head>
+
+
+
+<body>
+
+
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none mt-16"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="png.img\elite.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Elite Trader</a></h1>
+        <!--
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
+
+        </div>
+
+-->
+
+
+
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <h1 class="text-white text-2xl">Price Action</h1>
+          <li><a href="/support&resistance.html" class="nav-link scrollto "> <span>1. Support And Resistance</span></a></li>
+          <li><a href="/MarketStages.html" class="nav-link scrollto "><span>2. Market Stages</span></a></li>
+          <li><a href="/Trending&ranging.html" class="nav-link scrollto"> <span>3. Trending and Ranging Market</span></a></li>
+          <li><a href="/candelpattern.html" class="nav-link scrollto"><span>4. Candlestick Patterns</span></a></li>
+          <li><a href="/AdvancedCandlestick.html" class="nav-link scrollto active"><span>5. Advanced Candlestick Analysis</span></a></li>
+
+          <li><a href="/chartpattern.html" class="nav-link scrollto"><span>6. Chart Patterns</span></a></li>
+          <li><a href="/Volume.html" class="nav-link scrollto"> <span>7. Volume</span></a></li>
+          
+<li><b><a href="/psychology.html ">--> Trading Psychology</a></b></li>
+<li><b><a href="/riskM.html">--> Risk Management</a></b></li>
+<li><b><a href="/positionSize.html">--> Position Sizing</a></b></li>
+<li><b><a href="/SmartMoney.html">--> Smart Money Concept</a></b></li>
+<li><b><a href="/TradingJournal.html">--> Trading Journaling</a></b></li>
+<li><b><a href="/SentimentAnalysis.html">--> Sentiment Analysis</a></b></li>
+<li><b><a href="/FundamentalAnalysis.html">--> Fundamental Analysis</a></b></li>
+<li><b><a href="/IntermarketAnalysis.html">--> Intermarket Analysis</a></b></li>
+
+
+        </ul>
+       
+
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="inner-page  pt-0 md:w-3/4">
+
+
+      <nav class="bg-gray-800 border-b border-white mb-4">
+        <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex-shrink-0">
+
+              <div class=" md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
+                  <a href="/index.html" class="text-green-400 hover:text-red-400 text-lg font-medium">Home</a>
+                
+
+                  <button id="theme-toggle" class="bg-gray-200 shadow-md hover:bg-gray-300 rounded  ">
+                    <span class="text-xs text-black"><b>DarkMode</b></span>
+                    <span class="w-8 h-4 flex border-black  border-2  rounded-full mx-8   ">
+                      <span class="bg-blue-500 w-3 h-3 rounded-full  shadow-md transform duration-300 ease-in-out"
+                        id="switch"></span>
+                    </span>
+                  </button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+      <br>
+      <br>
+      <h1 class="text-2xl ml-2"> <b>5. Advanced Candlestick Analysis</b></h1>
+      <br>
+      <br>
+      <p class="ml-2"> In this chapter, I'll talk about how experienced traders analyze these candles to extract useful
+        information and trade accordingly.</p>
+      <p class="ml-2">Candlesticks not only show the open, high, low, and close prices, but they also tell a lot about
+        what buyers and sellers are doing, their strength, the strength of a trend, momentum, etc. if they are properly
+        analyzed in conjunction with volume.</p>
+      <br>
+      <p class="ml-2">Let me demonstrate a method for visualizing candles employing the concept of <b>"Path of Price"</b>
+        before we get into
+        the specifics of how to analyze candles. Candlesticks are made simple to understand by this.</p>
+      <br>
+      <p class="ml-2">A path of price is nothing more than the process by which a candle is formed; for instance, if you
+        notice that the price of a security opened at Rs. 50 and decreased below Rs 40 before achieving a high of Rs. 75
+        and finishing the trading session with a price of Rs. 70 then, when represented by a candlestick, this kind of
+        path of price information becomes a bullish candle formation.</p>
+        <br>
+        <p class="ml-2">Simply put, a path of price reveals the psychological factors that led to the formation of a bullish or bearish candlestick.</p>
+
+
+        <div class="w-full m-0 p-4 pb-2">
+          <img src="chart\bullish path.png"
+            class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+        </div>
+  
+        <div class="w-full p-4 pt-0">
+          <img src="chart\bearish path.png"
+            class="md:w-2/ h-auto  object-cover object-center mx-auto mt- mb-4 " />
+        </div>
+        </div>
+
+        <br>
+        <p class="ml-2">We need to pay close attention to four things in order to fully investigate candlesticks:</p>
+        <br>
+        <h3 class="ml-2"><b>Detailed Candlestick Analysis -</b></h3>
+        <ul class="ml-4">
+          <li>1. Size of the Candlestick Body</li>
+          <li>2. Length of the Shadow</li>
+          <li>3. Body to Shadow Ratio </li>
+          <li>4. Position of the Candlestick Body</li>
+        </ul>
+   
+           <br>
+
+           <p class="ml-2"><b>Important Remark:- </b><br> Use all of the above aspects of the candlestick together to get a complete picture of what's going on instead of just one or two of them.</p>
+
+<br>
+<br>
+
+<h1 class="ml-2 text-2xl">1. Size of the Candlestick Body -</h1>
+<br>
+<p class="ml-3">In a bullish or bearish environment, the size of the candlestick's body indicates how strong the dominance is.</p>
+<br>
+<p class="ml-3">A long body on a candlestick indicates strong buying or selling pressure and heavy trading in one direction. (a sign of strength in itself).</p>
+<br>
+<p class="ml-3">A short candlestick body indicates little buying or selling pressure and little trading in one direction. (a strong indication of weakness).</p>
+<br>
+<p class="ml-3">While taking a long or short trading position just keep in mind that if the body of the candle is wide then the probability of the trade going in your favor will become more and vice-versa.</p>
+
+
+
+
+      <div class="w-full m-0 p-4 pb-0 pt-0">
+        <img src="chart\bearish strength.png"
+          class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+      </div>
+      <div class="w-full m-0 p-4 pt-0 mb-4">
+        <img src="chart\Bullish strength.png"
+          class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+      </div>
+<br><br>
+
+      <div class="w-full m-0 p-4 pb-0 pt-0">
+        <img src="chart\bullish momentum.png"
+          class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+      </div>
+
+      <p class="ml-3">The momentum of the current trend is increasing if the size of candlestick bodies increases over time (preferably a few consecutive candles). Never trade against the trend during this time.</p>
+
+<br><br>
+      <div class="w-full m-0 p-4 pb-0 pt-0">
+        <img src="chart\decreasing momentum.png"
+          class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+      </div>
+
+<p class="ml-3">If the size of candlestick bodies decreases over a period of time (preferably a few consecutive candles) then it indicates momentum of the prevailing trend is decreasing and it may soon come to an end. During such periods, watch out for reversal signs.
+</p>
+<br>
+<p class="ml-3">If candlestick bodies remain more or less constant then it indicates a steady trend.
+</p>
+<br>
+<br>
+<br>
+
+<h1 class="ml-2 text-2xl">2. Length of the Candlestick Body -</h1>
+<br>
+<p class="ml-3">Short shadows may indicate a stable market with less uncertainty, while long shadows may indicate uncertainty.</p>
+<div class="w-full m-0 p-4 pb-0 pt-0">
+  <img src="chart\candle length.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<br>
+<p class="ml-3">The selling pressure or rejection of a higher price can be seen in the upper shadow.
+</p>
+<p class="ml-3">The shadow that is lower indicates that buyers are under pressure to buy or that they are rejecting a lower price.</p>
+
+<div class="w-full m-0 p-4 pb-0 pt-0">
+  <img src="chart\candle length 2.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<br>
+<br>
+<br>
+<h1 class="ml-2 text-2xl">3. Body to Shadow Ratio -</h1>
+<br>
+<p class="ml-3">During strong trends, candlestick bodies are significantly longer than shadows.</p>
+<br>
+<p class="ml-3">Candlestick shadows begin to grow larger than candlestick bodies as the trend weakens.</p>
+<br>
+<p class="ml-3">Candlesticks have long shadows and short bodies when there is sideways movement, consolidation, or when the trend is about to reverse.</p>
+
+<br>
+<br>
+<br>
+<h1 class="ml-2 text-2xl">4. Position of the Candlestick Body -</h1>
+<br>
+<p class="ml-3">If the body of a bullish candle is on the top end, it is considered to be more bullish, indicating that buying pressure is greater than selling pressure.
+</p>
+<div class="w-full m-0 p-4 pb-0 pt-0">
+  <img src="chart\candle position.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<br>
+<br>
+
+<p class="ml-3">If the body of a bearish candle is on the bottom end, it is considered to be more bearish, indicating that selling pressure is greater than buying pressure.</p>
+<div class="w-full m-0 p-4 pb-0 pt-0">
+  <img src="chart\bearish position.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+
+<br><br>
+
+<p class="ml-3">I'll now summarize everything I said above using two tables that list the strength of bullish and bearish candles.</p>
+
+
+<div class="w-full m-0 p-4 pb-0 pt-1">
+  <img src="chart\bull.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+
+<div class="w-full m-0 p-4 pb-0 pt-0">
+  <img src="chart\bears.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+
+
+
+
+
+<div class="w-full border-b border-white mt- mb-4">
+  <div class="w-full border-b border-black mt-4 mb-">
+  </div>
+</div>
+
+
+      
+      <div class="flex justify-between items-center">
+        <a href="/doublecandel.html#">
+          <button type="button" class="text-black ml-full bg-gradient-to-r from-gray-500 to-gray-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center
+                 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> <img src="imgs\icons8-left-94.png"
+              class="h-8 mr-4">
+            PREVIOUS
+
+          </button>
+        </a>
+        <a href="/chartpattern.html">
+          <button type="button" class="text-black mr-full  bg-gradient-to-r from-gray-500 to-gray-600  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center
+               dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            NEXT
+            <img src="imgs\icons8-right-94.png" class="h-8 ml-4">
+          </button>
+
+        </a>
+      </div>
+
+
+      </div>
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- End  Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!--  Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="index.js"></script>
+
+
+
+
+
+    <script>
+
+      const themeToggle = document.querySelector('#theme-toggle');
+      const body = document.querySelector('body');
+      const switchButton = document.querySelector('#switch');
+
+      themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark');
+        if (body.classList.contains('dark')) {
+          switchButton.style.transform = 'translateX(100%)';
+        } else {
+          switchButton.style.transform = 'translateX(0)';
+        }
+      });
+    </script>
+</body>
+
+</html>

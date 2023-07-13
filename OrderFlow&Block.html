@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Order Flow & Order Block</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="png.img\elite.png" rel="icon">
+  <link href="png.img\elite.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css">
+
+
+  <!-- JavaScript libraries -->
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="/assets/css/darkmode.css">
+
+ 
+
+</head>
+
+
+
+<body>
+
+
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none mt-16"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="png.img\elite.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Elite Trader</a></h1>
+        <!--
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
+
+        </div>
+
+-->
+
+
+
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          
+          <li><a href="/support&resistance.html" class="nav-link scrollto "> <span>1. Price Action</span></a></li>
+          <li><a href="/psychology.html" class="nav-link scrollto "><span>2. Trading Psychology</span></a></li>
+          <li><a href="/riskM.html" class="nav-link scrollto"> <span>3. Risk Management</span></a></li>
+          <li><a href="/TradingJournal.html" class="nav-link scrollto "><span>4.Trading Journal</span></a></li>
+          <li><a href="/SentimentAnalysis.html" class="nav-link scrollto "><span>5. Sentiment Analysis</span></a></li>
+
+          <li><a href="/FundamentalAnalysis.html" class="nav-link scrollto "><span>6. Fundamental Analysis</span></a></li>
+          <li><a href="/IntermarketAnalysis.html" class="nav-link scrollto"> <span>7. Intermarket Analysis</span></a></li>
+          <li><a href="/positionSize.html" class="nav-link scrollto"> <span>8. Position Sizing</span></a></li>
+          <li><a href="/SmartMoney.html" class="nav-link scrollto active"> <span>9. Smart Money Concept</span></a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="inner-page  pt-0 ">
+
+
+      <nav class="bg-gray-800 border-b border-white mb-4">
+        <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex-shrink-0">
+
+              <div class=" md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
+                  <a href="/index.html" class="text-green-400 hover:text-red-400 text-lg font-medium">Home</a>
+                 
+
+                  <button id="theme-toggle" class="bg-gray-200 shadow-md hover:bg-gray-300 rounded  ">
+                    <span class="text-xs text-black"><b>DarkMode</b></span>
+                    <span class="w-8 h-4 flex border-black  border-2  rounded-full mx-8   ">
+                      <span class="bg-blue-500 w-3 h-3 rounded-full  shadow-md transform duration-300 ease-in-out"
+                        id="switch"></span>
+                    </span>
+                  </button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <div class="d-flex justify-content-between align-items-center mt-2  ">
+        <h1 class="text-2xl ml-2"><b>Order Flow and Order Block</b></h1><br>
+
+
+      </div>
+
+      <!--**************************************************************************************************************************************************-->
+
+
+    </section><!-- End Breadcrumbs -->
+
+
+    <section class="inner-page md:w-3/4">
+      <div class="container ">
+        <h1 class="text-2xl ml-2"><b>What is Order Flow ?</b></h1><br>
+
+        <p>
+          The flow of orders into the market is referred to as "order flow." It shows the number of purchasers and dealers that are available at some random time and the amount of resources they will trade. Traders can gain insight into market dynamics, such as supply and demand imbalances and potential price movements, through order flow analysis.
+        </p>
+        <br>
+        <P>
+          Order flow analysis is a method of analyzing the volume and price data of a financial market to identify the buy and sell orders that are flowing into the market. By tracking the order flow, traders can get a better understanding of the underlying supply and demand forces that are driving the market, and potentially predict future price movements.
+
+        </P>
+
+        
+<div class="w-full m-0 p-2">
+  <img src="png.img\Order flow 2.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<div class="w-full m-0 p-2">
+  <img src="png.img\Order flow.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<p>
+  For order flow analysis, traders use volume profiles, market depth charts, and order book analysis, among other tools and methods. Traders can use these tools to track the direction of order flow and identify key levels where significant orders are being placed, providing insight into market sentiment.
+</p>
+
+
+<br>
+<br>
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+<h1 class="text-2xl ml-2"><b>What is Order Block ?</b></h1><br>
+<p>
+  A price level at which significant previous buying or selling activity has resulted in a consolidation of orders is known as an order block. This union frequently makes areas of strength for an or obstruction level, as the orders inside the block can make value respite or opposite. Because they can serve as areas of interest for future price movements, it can be helpful for traders looking to enter or exit trades to identify and analyze order blocks.
+
+</p>
+
+<br>
+<p>
+  When a request block is distinguished, merchants might involve it as a source of perspective point for future cost activity. A trader might, for instance, look to buy at a strong order block as a support level in the hope that the price will rise. Then again, on the off chance that the cost gets through major areas of strength for a block, it very well might be an indication of a potential pattern inversion or continuation.
+
+</p>
+
+       
+<div class="w-full m-0 p-2">
+  <img src="png.img\Screenshot (147).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<div class="w-full m-0 p-2">
+  <img src="png.img\Screenshot (149).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+
+<p>
+  Order blocks are often identified using price charts, and traders may use various techniques to identify them, such as volume analysis, market profile analysis, or identifying price levels where the market has previously shown a lot of activity or consolidation.
+
+</p>
+<br>
+<li>You can use the <b>Smart Money Concept [LuxAlgo] </b>indicator in tradingview.com to determine the order block.</li>
+
+<br>
+<p>
+  In summary, order flow refers to the overall flow of buy and sell orders in the market, while order blocks are specific levels where significant buying or selling activity has occurred in the past. Both concepts are used by traders to gain insight into market dynamics and make more informed trading decisions.
+
+
+
+
+
+</p>
+
+
+
+<br>
+<br>
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+
+
+
+
+
+
+
+
+
+  <!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="index.js"></script>
+
+
+
+
+
+  <script>
+
+    const themeToggle = document.querySelector('#theme-toggle');
+    const body = document.querySelector('body');
+    const switchButton = document.querySelector('#switch');
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark');
+      if (body.classList.contains('dark')) {
+        switchButton.style.transform = 'translateX(100%)';
+      } else {
+        switchButton.style.transform = 'translateX(0)';
+      }
+    });
+  </script>
+</body>
+
+</html>

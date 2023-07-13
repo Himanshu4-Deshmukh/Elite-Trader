@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Double Candlestick Pattern</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="png.img\elite.png" rel="icon">
+  <link href="png.img\elite.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css">
+
+
+  <!-- JavaScript libraries -->
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="/assets/css/darkmode.css">
+
+ 
+
+</head>
+
+
+
+<body>
+
+
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none mt-16"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="png.img\elite.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Elite Trader</a></h1>
+        <!--
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
+
+        </div>
+-->
+
+
+
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <h1 class="text-white text-2xl">Price Action</h1>
+          <li><a href="/support&resistance.html" class="nav-link scrollto "> <span>1. Support And Resistance</span></a></li>
+          <li><a href="/MarketStages.html" class="nav-link scrollto "><span>2. Market Stages</span></a></li>
+          <li><a href="/Trending&ranging.html" class="nav-link scrollto"> <span>3. Trending and Ranging Market</span></a></li>
+          <li><a href="/candelpattern.html" class="nav-link scrollto active"><span>4. Candlestick Patterns</span></a></li>
+          <li><a href="/AdvancedCandlestick.html" class="nav-link scrollto"><span>5. Advanced Candlestick Analysis</span></a></li>
+
+          <li><a href="/chartpattern.html" class="nav-link scrollto"><span>6. Chart Patterns</span></a></li>
+          <li><a href="/Volume.html" class="nav-link scrollto"> <span>7. Volume</span></a></li>
+                   
+<li><b><a href="/psychology.html ">--> Trading Psychology</a></b></li>
+<li><b><a href="/riskM.html">--> Risk Management</a></b></li>
+<li><b><a href="/positionSize.html">--> Position Sizing</a></b></li>
+<li><b><a href="/SmartMoney.html">--> Smart Money Concept</a></b></li>
+<li><b><a href="/TradingJournal.html">--> Trading Journaling</a></b></li>
+<li><b><a href="/SentimentAnalysis.html">--> Sentiment Analysis</a></b></li>
+<li><b><a href="/FundamentalAnalysis.html">--> Fundamental Analysis</a></b></li>
+<li><b><a href="/IntermarketAnalysis.html">--> Intermarket Analysis</a></b></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="inner-page  pt-0 ">
+
+
+      <nav class="bg-gray-800 border-b border-white mb-4">
+        <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex-shrink-0">
+
+              <div class=" md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
+                  <a href="/index.html" class="text-green-400 hover:text-red-400 text-lg font-medium">Home</a>
+                 
+
+                  <button id="theme-toggle" class="bg-gray-200 shadow-md hover:bg-gray-300 rounded  ">
+                    <span class="text-xs text-black"><b>DarkMode</b></span>
+                    <span class="w-8 h-4 flex border-black  border-2  rounded-full mx-8   ">
+                      <span class="bg-blue-500 w-3 h-3 rounded-full  shadow-md transform duration-300 ease-in-out"
+                        id="switch"></span>
+                    </span>
+                  </button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="inner-page  pt-0 md:w-3/4">
+
+      <div class="d-flex justify-content-between align-items-center mt-2 ">
+        <h1 class="text-2xl"><b>4. Candlestick pattern</b></h1><br>
+
+
+      </div>
+
+
+
+      <div class="flex flex-wrap mt-4">
+
+
+
+        <div class="container mt-2 bg-gradient-to-r from-gray-900 to-gray-800 md:w-1/3 w-full">
+
+          <div class="ml-2 text-white"><b>1. Single Candlestick
+              Pattern</b><br></div>
+            <div class="ml-4 text-yellow-600">
+              <a class="ml-3" href="/candelpattern.html#topic11"><b>i. Bullish Marubozu </b></a><br>
+              <a class="ml-3" href="/candelpattern.html#topic12"><b>ii. Bearish Marubozu</b></a><br>
+              <a class="ml-3" href="/candelpattern.html#topic13"><b>iii. Hammer</b></a><br>
+              <a class="ml-3" href="/candelpattern.html#topic14"><b>iv. Hanging Man</b></a><br>
+              <a class="ml-3" href="/candelpattern.html#topic15"><b>v. Inverted Hammer</b></a><br>
+              <a class="ml-3" href="/candelpattern.html#topic16"><b>vi. Shooting Star</b></a><br>
+              <a class="ml-3" href="/candelpattern.html#topic17"><b>vii. Doji</b></a>
+            </div>
+          
+          <a href="/candelpattern.html#mtopic1">
+          <button type="button"
+            class="text-white  mt-1 ml-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            GO <svg aria-hidden="true" class="w-5 h-5 ml-1 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          </a>
+        </div>
+        <div class="container mt-2 bg-gradient-to-r from-gray-900 to-gray-800 md:w-1/3 w-full">
+
+
+
+          <div class="ml-2 text-white"><b>2. Two Candlestick Pattern</b><br></div>
+          <div class="ml-4 text-yellow-600">
+            <a class="ml-3" href="#topic1"><b>i. Bullish Engulfing Pattern </b></a><br>
+            <a class="ml-3" href="#topic2"><b>ii. Bearish Engulfing Pattern</b></a><br>
+            <a class="ml-3" href="#topic3"><b>iii. Bullish Harami</b></a><br>
+            <a class="ml-3" href="#topic4"><b>iv. Bearish Harami</b></a><br>
+            <a class="ml-3" href="#topic5"><b>v. Piercing Pattern</b></a><br>
+            <a class="ml-3" href="#topic6"><b>vi. Dark Cloud Cover</b></a><br>
+          </div>
+        
+
+
+        </div>
+        <div class="container bg-gradient-to-r from-gray-900 to-gray-800 mt-2  md:w-1/3 w-full">
+
+
+          <div class="ml-2 text-white" ><b>3. Three Candlestick Pattern</b><br></div>
+          <div class="ml-4 text-yellow-600">
+            <a class="ml-3" href="#topic7"><b>i. Morning Star Pattern</b></a><br>
+            <a class="ml-3" href="#topic8"><b>ii. Evening Star Pattern</b></a><br>
+            <a class="ml-3" href="#topic9"><b>iii. Three White Soldiers</b></a><br>
+            <a class="ml-3" href="#topic10"><b>iv. Tree Black Crows</b></a><br>
+
+          </div>
+
+          <a href="#mtop2">
+
+          <button type="button"
+          class="text-white  mt-1 ml-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          GO <svg aria-hidden="true" class="w-5 h-5 ml-1 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        </a>
+
+        </div>
+        <div class="ml-1 mt-10">
+          <h1 class="text-2xl" id="mtop1">2. Two Candlestick Pattern</h1>
+          <br>
+          <br>
+          <h2 style="font-size: 20px;" id="topic1"><b>i. Bullish Engulfing Pattern - </b></h2>
+          <br>
+          <p class="ml-2">
+            It is a bullish reversal pattern with two candles that indicates the end of the current downtrend and the
+            beginning of an uptrend.
+          </p>
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\bulingulf.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" /> <!--BUllish ingulfing candle-->
+          </div> <!--BUllish ingulfing candle-->
+          <div class="w-full  pr-4 pl-2">
+            <img src="chart\bulingulf EG.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" />
+          </div>
+
+
+          <p class="ml-2">In this pattern, the first day is generally a small or red bearish candle that forms in line
+            with the ongoing bearish trend, followed by a long white or green bullish candle that completely engulfs the
+            real body of the previous day's bearish candle.</p>
+          <br>
+          <p class="ml-2">
+            This candlestick pattern demonstrates that buyers have been prevailing over sellers and are more likely to
+            take the price upward.
+          </p>
+          <br>
+          <div class="w-full border-b border-white">
+            <div class="w-full border-b border-black">
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2 style="font-size: 20px;" id="topic2"><b>ii. Bearish Engulfing Pattern - </b></h2>
+          <br>
+          <p class="ml-2">It is a bearish reversal pattern with two candles that signals the end of an uptrend and the
+            beginning of a downtrend.</p>
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\bearingulf.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" /> <!--bearish ingulfing candle-->
+          </div> <!--bearish ingulfing candle-->
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\bearingulf EG.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" />
+          </div>
+
+          <p class="ml-2">
+            The first day of this pattern typically consists of a long black or red bearish candle that completely
+            engulfs the actual body of the previous day's bullish candle. The second day typically consists of a small
+            white or green bullish candle that forms in line with the ongoing bullish trend.
+
+          </p>
+          <br>
+          <p class="ml-2">
+            This candlestick pattern demonstrates that sellers have dominated buyers and are more likely to price
+            downward.
+          </p>
+          <br>
+          <div class="w-full border-b border-white">
+            <div class="w-full border-b border-black">
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2 style="font-size: 20px;" id="topic3"><b>iii. Bullish Harami Pattern - </b></h2>
+          <br>
+          <p class="ml-2">Bullish Harami is a bullish reversal pattern with two candles that indicates the end of a
+            downtrend and the beginning of an uptrend.
+          </p>
+          <br>
+          <p class="ml-2">
+            Pattern derives its name the japanese word Harami which means a "Pregnant Woman" because the graphic that
+            represents this pattern resembles a pregnant woman.
+
+          </p>
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\bullharami.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" /> <!--bearish ingulfing candle-->
+          </div> <!--bearish ingulfing candle-->
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\bullharami EG.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" />
+          </div>
+
+          <p class="ml-2">On the first day of this pattern, a large red or black bearish candle usually forms in line
+            with the current bearish trend. On the second day, a smaller green or white bullish candle usually forms
+            with a smaller body and smaller lower and upper shadows.
+          </p>
+          <p class="ml-2">The second candle's body is contained within the first candle's body.</p>
+          <br>
+          <p class="ml-2">Ideally, the size of the body of the larger candle should be approximately 4 times the size of
+            the body of the smaller candle.
+          </p>
+          <p class="ml-2">If the upper and lower shadows of the white or green candle do not extend beyond the black or
+            red candle, the pattern will look better.
+          </p>
+          <br>
+          <div class="w-full border-b border-white">
+            <div class="w-full border-b border-black">
+            </div>
+          </div>
+          <br><br>
+
+          <h2 style="font-size: 20px;" id="topic4"><b>iv. Bearish Harami Pattern - </b></h2>
+          <br>
+          <p class="ml-2">
+            A bearish reversal pattern known as a bearish harami is a two- candle pattern that indicates the end of an
+            uptrend and the beginning of a downtrend.
+
+          </p>
+          <p class="ml-2">The first day of this pattern typically has a large green or white bullish candle with a small
+            body and comparatively smaller lower and upper shadows that aligns with the ongoing bullish trend.</p>
+
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\bearharami.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" /> <!--bearish ingulfing candle-->
+          </div> <!--bearish ingulfing candle-->
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\bearharami EG.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" />
+          </div>
+
+
+          <p class="ml-2">
+
+            The second candle's body is contained within the first candle's body.
+
+          </p>
+
+          <p class="ml-2">
+            Ideally, the size of the body of the larger candle should be approximately 4 times the size of the body of
+            the smaller candle.
+
+          </p>
+          <p class="ml-2">If the upper and lower shadows of the red or black candle do not extend beyond the green or
+            white candle, the pattern will look better.
+          </p>
+          <p class="ml-2">This pattern suggests that sellers are taking control and ready to take the price lower.</p>
+
+          <br>
+          <div class="w-full border-b border-white">
+            <div class="w-full border-b border-black">
+            </div>
+          </div>
+          <br><br>
+          <h2 style="font-size: 20px;" id="topic5"><b>v. Piercing Line Pattern- </b></h2>
+          <br>
+          <p class="ml-2">
+            The Piercing Line Pattern is a bullish reversal pattern with two candles that signals the end of a downtrend
+            and the beginning of an uptrend.
+
+          </p>
+
+
+          <p class="ml-2">
+            A large red or black bearish candle typically forms on the first day of this pattern, following a strong
+            green or white bullish candle that opens lower than the previous day's low but manages to close above the
+            midrange of the previous candle.
+          </p>
+
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\piercing.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" /> <!--bearish ingulfing candle-->
+          </div> <!--bearish ingulfing candle-->
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\piercing EG.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" />
+          </div>
+
+
+          <p class="ml-2">
+            It is considered to be a more bullish signal if the volume of the second candle is higher than the average
+            volume.
+
+          </p>
+          <p class="ml-2">
+            This candlestick pattern demonstrates that buyers have begun to dominate sellers and are more likely to
+            accept a higher price.
+          </p>
+          <br>
+          <div class="w-full border-b border-white">
+            <div class="w-full border-b border-black">
+            </div>
+          </div>
+          <br><br>
+          <h2 style="font-size: 20px;" id="topic6"><b>vi. Dark Cloud Cover Pattern- </b></h2>
+          <p class="ml-2">
+            Dark cloud cover is a two-candle pattern that marks the beginning of a downtrend and the end of an uptrend.
+
+          </p>
+          <p class="ml-2">
+            In this pattern, the first day is generally a large green or white bullish candle that forms in line with
+            the ongoing bullish trend, followed by a strong red or black bearish candle that opens higher than the
+            previous days high but eventually manages to the close below the mid range of the previous candle.
+          </p>
+
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\darkcloud.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" /> <!--bearish ingulfing candle-->
+          </div> <!--bearish ingulfing candle-->
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\Darkcloud EG.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" />
+          </div>
+
+
+          <p class="ml-2">
+            It is thought to be a more bearish signal if the volume on the second candle is higher than the average
+            volume.
+
+          </p>
+
+
+          <p class="ml-2">This candlestick pattern demonstrates that sellers have begun to dominate buyers and are more
+            likely to accept a lower price.</p>
+          <br>
+          <div class="w-full border-b border-white">
+            <div class="w-full border-b border-black">
+            </div>
+          </div>
+          <br>
+          <div class="w-full border-b border-white">
+            <div class="w-full border-b border-black">
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <h1 class="text-2xl" id="mtop2">3. Three Candlestick Pattern</h1>
+          <br>
+
+          <h2 style="font-size: 20px;" id="topic7"><b>i. Morning Star Pattern- </b></h2>
+          <br>
+          <p class="ml-2">The morning star pattern is a bullish reversal pattern with three candles that indicates the
+            end of a downtrend and the beginning of an uptrend.</p>
+
+
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\morningstar.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" /> <!--bearish ingulfing candle-->
+          </div> <!--bearish ingulfing candle-->
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\morningstar EG.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" />
+          </div>
+          <p class="ml-2">
+
+            The first day of this pattern typically consists of a gap down small body candle and a large red or black
+            bearish candle that form in line with the ongoing bearish trend. This second candle has the potential to be
+            either bullish or bearish. The third candle is a gap up long green or white bullish candle that closes close
+            to or above the first candle's midrange.
+
+          </p>
+          <br>
+          <p class="ml-2">
+            This candlestick pattern demonstrates how buyers gained market dominance over sellers. It is thought that
+            this pattern is a strong indication of a trend reversal when it occurs near a support level at the bottom of
+            a downtrend.
+          </p>
+          <br>
+          <p class="ml-2">It is considered to be a more bullish signal if the volume on the third candle is higher than
+            the average volume.</p>
+<br>
+          <div class="w-full border-b border-white">
+            <div class="w-full border-b border-black">
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <h2 style="font-size: 20px;" id="topic8"><b>ii. Evening Star Pattern- </b></h2>
+          <br>
+          <p class="ml-2">The evening star pattern is a bearish reversal pattern with three candles that indicates the
+            end of an uptrend and the beginning of a downtrend.</p>
+
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\evening star.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" /> <!--bearish ingulfing candle-->
+          </div>                                                                       <!--bearish ingulfing candle-->
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\Eveningstar EG.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" />
+          </div>
+
+
+          <p class="ml-2">
+
+            The first day of this pattern typically consists of  a large green or white
+            bullish candle and a gap up small body candle that form in line with the ongoing bullish trend. This second candle has the potential to be
+            either bullish or bearish. The third candle is a gap down long red or black bearish candle that closes close
+            to or below the first candle's midrange.
+          </p>
+          <br>
+
+          <p class="ml-2">
+            This candlestick pattern shows how sellers look control of the market from buyers. When this pattern occurs at the top of an uptrend near a resistance level, it is interpreted as a powerful trend reversal signal.
+
+
+          </p>
+          <br>
+
+          <p class="ml-2">
+            If the volume on the third candle is higher than the average volume then it is considered to be a stronger bearish signal.
+
+
+          </p>
+          <br>
+
+          <div class="w-full border-b border-white">
+            <div class="w-full border-b border-black">
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <h2 style="font-size: 20px;" id="topic9"><b>iii. Three White Soldiers Pattern- </b></h2>
+          <br>
+          <p class="ml-2">
+            Three white soldiers is a bullish reversal pattern with three candles that indicates the end of a downtrend and the beginning of an uptrend. Buyers are taking control, as evidenced by this pattern, and the price is anticipated to rise.
+          </p>
+
+
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\whitesoldiers.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" /> <!--bearish ingulfing candle-->
+          </div>                                                                       <!--bearish ingulfing candle-->
+          <div class="w-full pr-4 pl-2">
+            <img src="chart\whitesoldiers EG.png"
+              class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" />
+          </div>
+
+
+          <p class="ml-2">
+
+            The open and close of each of the three candles in this pattern are above those of the previous candle, making them all long bullish candles.
+
+            </p> 
+<br>
+            <p class="ml-2">
+              The fact that each of the three candles is nearly the same length and  all three candles have comparatively smaller shadows.
+            </p>
+<br>
+<div class="w-full border-b border-white">
+  <div class="w-full border-b border-black">
+  </div>
+</div>
+<br>
+<br>
+
+<h2 style="font-size: 20px;" id="topic10"><b>iv. Three Black Crows Pattern- </b></h2>
+<br>
+<p class="ml-2">Three Black Crows is a bearish reversal pattern with three candles that signals the end of an uptrend and the beginning of a downtrend. Price is anticipated to fall as a result of this pattern, which indicates that sellers are taking control.</p>
+
+
+<div class="w-full pr-4 pl-2">
+  <img src="chart\blackcrow.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" /> <!--bearish ingulfing candle-->
+</div>                                                                       <!--bearish ingulfing candle-->
+<div class="w-full pr-4 pl-2">
+  <img src="chart\blackcrow EG.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-4" />
+</div>
+
+
+ <p class="ml-2">
+
+  The open and close of each of the three candles in this pattern are below those of the previous candle, making them all long bearish candles.
+The fact that all three candles are nearly the same length and cast shadows that are comparatively smaller is another important aspect of this pattern.
+ </p>
+<br>
+
+ <div class="w-full border-b border-white">
+  <div class="w-full border-b border-black">
+  </div>
+</div>
+<br>
+<br>
+<h1 class="text-2xl">
+ Important Remarks
+</h1>
+<br>
+<p class="ml-2">
+  Although candlestick patterns capture the attention of market players, they should never be traded upon in isolation.
+  To confirm the overall trend, they should be used in conjunction with other technical analysis tools.
+</p>
+
+<p class="ml-2">
+  For instance, if you are looking for additional confirmation and are focusing on the security's volume, a trading signal that uses a candlestick pattern and is accompanied by rising volume is considered to be very strong.
+</p>
+<br>
+<p class="ml-2">
+  Although we are not concerned with technical indicators as Price Action traders, a Moving Average is still recommended for additional confirmation.
+
+</p>
+
+<p class="ml-2">
+  The fact that there is no best or worst candlestick pattern is another thing to keep in mind. You must establish patterns that suit you and then adhere to them.
+</p>
+<br>
+<p class="ml-2">
+  If you are just starting out, I would suggest that you look at more charts and try to recognize candlestick patterns in order to train your eyes to easily recognize them.
+</p>
+<br>
+
+<br>
+
+ <div class="w-full border-b border-white">
+  <div class="w-full border-b border-black">
+  </div>
+</div>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+          <div class="flex justify-between items-center">
+            <a href="/candelpattern.html#">
+              <button type="button" class="text-black ml-full bg-gradient-to-r from-gray-500 to-gray-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center
+                 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> <img src="imgs\icons8-left-94.png"
+                  class="h-8 mr-4">
+                PREVIOUS
+
+              </button>
+            </a>
+            <a href="/AdvancedCandlestick.html">
+              <button type="button" class="text-black mr-full  bg-gradient-to-r from-gray-500 to-gray-600  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center
+               dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                NEXT
+                <img src="imgs\icons8-right-94.png" class="h-8 ml-4">
+              </button>
+
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- End  Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="index.js"></script>
+
+
+
+
+
+    <script>
+
+      const themeToggle = document.querySelector('#theme-toggle');
+      const body = document.querySelector('body');
+      const switchButton = document.querySelector('#switch');
+
+      themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark');
+        if (body.classList.contains('dark')) {
+          switchButton.style.transform = 'translateX(100%)';
+        } else {
+          switchButton.style.transform = 'translateX(0)';
+        }
+      });
+    </script>
+</body>
+
+</html>

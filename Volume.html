@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Volume Analysis</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="png.img\elite.png" rel="icon">
+  <link href="png.img\elite.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!--  Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css">
+
+
+  <!-- JavaScript libraries -->
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="/assets/css/darkmode.css">
+
+ 
+
+</head>
+
+
+
+<body>
+
+
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none mt-16"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="png.img\elite.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Elite Trader</a></h1>
+       
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <h1 class="text-white text-2xl">Price Action</h1>
+          <li><a href="/support&resistance.html" class="nav-link scrollto "> <span>1. Support And Resistance</span></a></li>
+          <li><a href="/MarketStages.html" class="nav-link scrollto "><span>2. Market Stages</span></a></li>
+          <li><a href="/Trending&ranging.html" class="nav-link scrollto"> <span>3. Trending and Ranging Market</span></a></li>
+          <li><a href="/candelpattern.html" class="nav-link scrollto"><span>4. Candlestick Patterns</span></a></li>
+          <li><a href="/AdvancedCandlestick.html" class="nav-link scrollto"><span>5. Advanced Candlestick Analysis</span></a></li>
+
+          <li><a href="/chartpattern.html" class="nav-link scrollto"><span>6. Chart Patterns</span></a></li>
+          <li><a href="/Volume.html" class="nav-link scrollto active"> <span>7. Volume</span></a></li>
+
+
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="inner-page  pt-0 ">
+
+
+      <nav class="bg-gray-800 border-b border-white mb-4">
+        <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex-shrink-0">
+
+              <div class=" md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
+                  <a href=" /index.html" class="text-green-400 hover:text-red-400 text-lg font-medium">Home</a>
+                 
+
+                  <button id="theme-toggle" class="bg-gray-200 shadow-md hover:bg-gray-300 rounded  ">
+                    <span class="text-xs text-black"><b>DarkMode</b></span>
+                    <span class="w-8 h-4 flex border-black  border-2  rounded-full mx-8   ">
+                      <span class="bg-blue-500 w-3 h-3 rounded-full  shadow-md transform duration-300 ease-in-out"
+                        id="switch"></span>
+                    </span>
+                  </button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page md:w-3/4">
+      <div class="container">
+
+      
+        <h1 class="text-2xl ml-2"><b>7. Volume Analysis</b></h1><br>
+
+        <p>
+          <b>
+            The term "volume" refers to the total number of transactions that took place within a specific security over a specific time frame.
+          </b>
+        </p>
+        <br>
+        <p>
+          The majority of technical analysts use volume as a crucial parameter when analyzing securities. Investors/traders can determine the significance of changes in a security's price by analyzing trends in volume in conjunction with price changes.
+        </p>
+        <br>
+        <p>
+          The majority of swing and intraday traders use volume to determine the strength of the current trend.
+        </p>
+        <br>
+        <p>
+          I have frequently observed that novice traders and traders who are experiencing losses frequently do not analyze volume. My understanding is that traders will benefit greatly from interpreting volume, giving them a competitive advantage.
+        </p>
+        <br>
+<p>
+  Regarding Price Volume Correlation, there is a well-known saying that goes like this:
+</p>
+
+<p>
+  <b>
+    "Price is the King, but Volume is the Queen."
+
+  </b>
+</p>
+<br>
+<p>
+  If you use technical analysis in your trading, you should monitor a security for an entry point by not only observing price action but also volume in order to predict future price movements.
+</p>
+<br>
+<p>
+  High trading volumes can often reveal a lot about an investor's perspective on a security or market.
+</p>
+
+<br>
+<p>
+  The interpretation of rising or falling volumes in relation to rising or falling security prices can be found in the table below.
+</p>
+<br>
+
+<div class="w-full m-0 p-2">
+  <img src="/chartimg\volume.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<br>
+
+<p>
+  A significant price increase along with a significant increase in volume is often considered as a credible or very strong sign of a continued bullish trend or a bullish reversal. However, if the price is moving higher with low volumes, then it is considered to be unreliable.
+
+</p>
+
+<br>
+
+<p>
+  Similarly, a significant price decrease with a significant increase in volume is often considered as a credible or very strong sign of a continued bearish trend or a bearish reversal. However, if the price is going down with low volumes, then it is considered to be unreliable.
+
+</p>
+  
+<br>
+<p>
+  Similarly, a significant price decrease with a significant increase in volume is often considered as a credible or very strong sign of a continued bearish trend or a bearish reversal. However, if the price is going down with low volumes, then it is considered to be unreliable.
+
+</p>
+<br>
+
+<li> Confirming Respect of Support and Resistance</li>
+  <li>Confirming Breakout of Support and Resistance</li>
+    <li>Confirming Reversal Chart Pattern Breakout</li>
+      <li>Confirming Continuation Chart Pattern Breakout</li>
+
+      <br>
+
+      <h1 class="text-2xl"><b>
+        Liquidity
+      </b></h1>
+
+      <p>
+        Volume is a crucial metric for determining a security's liquidity. If a security has very little trading volume, it means that nobody or very few people in the market want to buy or sell it.
+      </p>
+      <br>
+      <p>
+        In the case of securities of this kind, technical analysis is useless. Another fact is that such illiquid securities are easy to manipulate in terms of price action. If you purchase a security with a low volume, you run the risk of becoming trapped in it and being unable to sell it. 
+      </p>
+      <br>
+      <p>
+        As a result, before trading any security, it is critical to examine and verify the volume.
+      </p>
+      <br>
+<br>
+<br>
+      <h1 class="text-2xl">Low Volume Stock</h1>
+      
+<div class="w-full m-0 p-2">
+  <img src="/chartimg\Screenshot (122).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+      <p>
+        The stock's average daily volume clearly indicates that it is illiquid and should not be traded or invested in.
+
+        You can likewise see that on the vast majority of the exchanging days, the stock was either in upper circuit or in lower circuit.
+      </p>
+
+      <br>
+      <br>
+      <br>
+      <h1 class="text-2xl"> High Volume Stock</h1>
+           
+<div class="w-full m-0 p-2">
+  <img src="/chartimg\Screenshot (123).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+
+      <p>
+        The stock's average daily volume clearly indicates that it is trading well and should be used for investing as well as trading.
+      </p>
+      
+      <div class="w-full border-b border-white mt-4 mb-4">
+        <div class="w-full border-b border-black  ">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+
+      <h1 class="text-2xl">
+       1. Confirming Respect of Support and Resistance -
+      </h1>
+      <br>
+      <p>
+        Volume is a significant pointer that can frequently affirm whether a security will take backing or face obstruction at a specific level.
+      </p>
+      <br>
+      <p>
+        When the price of a security is approaching towards a support or resistance the average volume is lesser as compared to when it reaches very near to the support or
+        resistance.
+      </p>
+      <br>
+
+      <p>
+The examples shown below shall explain this concept in a better manner.
+
+      </p>
+
+               
+<div class="w-full m-0 p-2">
+  <img src="/chartimg\Screenshot (125).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<p>
+  You can see increased volume action when price took support at the support trendline.
+  <br>
+  In this instance, price rise with increased volume.
+</p>
+<p>
+  Now that volume has provided confirmation, traders may have taken a buying position at those price points.
+</p>
+
+<br><br>
+<br>
+
+
+              
+<div class="w-full m-0 p-2">
+  <img src="/chartimg\Screenshot (124).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<br>
+<p>
+  With increased volume, the stock price encountered resistance at the falling resistance trendline.
+</p>
+
+<p>
+  The large volume bearish candles and bars suggested that there was a lot of selling pressure at the trend line of falling resistance.
+</p>
+<p>Now that the volume has provided confirmation, traders may have taken a short position at that level.</p>
+
+
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+<h1 class="text-2xl">
+  2. Confirming Breakout of Support and Resistance -
+ </h1>
+
+ <br>
+ 
+
+<p>
+  Volume is a important pointer that can frequently confirm whether a security has given a valid breakout or a false breakout from a support or opposition trendline.
+</p>
+<br>
+<p>
+  While a false breakout occurs at low volumes, a valid or genuine breakout occurs at high volumes.
+</p>
+<p>
+  Therefore, volume analysis is important in the case of a breakout.
+</p>
+<p>
+  This concept will be better explained by the examples below.
+</p>
+              
+<div class="w-full m-0 p-2">
+  <img src="/chartimg\Screenshot (128).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<br>
+<p>
+  The price broke through the resistance zone with a lot of volume, indicating that the resistance zone was under a lot of buying pressure.
+</p>
+
+<p>
+  Now that the volume has confirmed the breakout, traders may have taken a long position at that level.
+</p>
+<br>
+<br>
+<br>
+<br>
+
+              
+<div class="w-full m-0 p-2">
+  <img src="/chartimg\Screenshot (129).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<br>
+
+<p>
+  With a significant high volume, the price broke the support zone, indicating a genuine breakout. This suggests that the support zone was under a lot of selling pressure.
+</p>
+<br>
+<p>
+  Now after getting breakout confirmation from the volume, traders could have taken a short position at that level.
+
+</p>
+<br>
+
+
+
+
+
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+<br>
+<br>
+
+
+<h1 class="text-2xl">
+  3. Confirming Reversal Chart Pattern Breakout -
+
+</h1>
+ <br>
+
+
+<p>
+  In the event of reversal chart patterns, it is essential to analyze volume whenever a breakout occurs.
+  </p>
+  <p>
+    When a security's price breaks out of a chart pattern, it's important to look at the volume to see how strong the break was.
+  </p>
+  <br>
+  <p>
+    If a price breakout with a lot of volume occurs in bullish reversal patterns, it is safe to assume that the next uptrend will be very strong.
+  </p>
+  <p>
+    In a similar vein, a bearish reversal pattern can be safely assumed to have a very strong upcoming downtrend if a price breakout with a lot of volume occurs.
+  </p>
+  <br>
+  <p>
+    For better clarity, I am explaining the same with the help of a few examples.
+
+
+  </p>
+
+
+               
+<div class="w-full m-0 p-2">
+  <img src="/chartimg\Screenshot (132).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<br>
+<p>
+  With a significant volume surge, the price broke through the Resistance zone, signaling the end of the current downtrend and a significant reversal.
+</p>
+<p>
+  Now that volume has confirmed the breakout, traders may have taken a long position at that level.
+</p>
+<br>
+<br>
+<br>
+
+              
+<div class="w-full m-0 p-2">
+  <img src="/chartimg\Screenshot (131).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<br>
+<p>
+  Price broke the Rising channel pattern with a significant spike in volume, signaling the end of the current uptrend and a significant reversal.
+</p>
+<p> 
+  Now after getting breakout confirmation from the volume, traders could have taken a short position at that level.
+
+</p>
+<br>
+
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+<br>
+<br>
+
+
+<h1 class="text-2xl">
+  4. Confirming Continuation Chart Pattern Breakout -
+
+
+</h1>
+ <br>
+
+ <p>
+  When a breakout occurs, as well as in the case of continuation chart patterns, it is essential to analyze volume.
+ </p>
+ <p>
+  When a security's price breaks out of a chart pattern, it's important to look at the volume to see how strong the break was.
+ </p>
+ <br>
+
+ <p>
+  If a price breakout with a lot of volume occurs in bullish continuation patterns, it is safe to assume that the uptrend will continue. In a similar vein, bearish continuation patterns suggest that the current downtrend will continue if a price breakout with a lot of volume occurs.
+ </p>
+ <br>
+ <br>
+
+            
+<div class="w-full m-0 p-2">
+  <img src="/chartimg\Screenshot (134).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<br>
+
+<p>
+  Later, the price made a breakout on the upside with a lot of volume, indicating that the uptrend is still going strong and that the price will keep going up.
+</p>
+<p>
+  Now that the volume provided breakout confirmation, traders might have taken a long position at that point.
+</p>
+
+<br>
+<br>
+<br>
+
+         
+<div class="w-full m-0 p-2">
+  <img src="/chartimg\Screenshot (133).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<br>
+
+<p>
+
+  The price made a downside breakout with a lot of volume, indicating that the downtrend is still present and that the price will continue to fall.
+</p>
+<p>
+  Now that the volume provided breakout confirmation, traders might have taken a short position at that point.
+</p>
+
+<br>
+
+
+
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+
+<h1 class="text-2xl"><b>
+ Aways Remember - 
+
+</b>
+</h1>
+ <br>
+
+ <p>
+  A trader or investor must always keep in mind that taking a trading position will not be possible based on volume alone. To increase your chances of being correct and winning the trade, you must use it as a secondary confirmation indicator in conjunction with price patterns and other price action parameters.
+ </p>
+ <br>
+ <p>
+  Don't just take a position based solely on volume; even if you get genuine breakouts with decent volumes, the security will still not move in your favor. On the off chance that any exchange doesn't move in support of yourself even subsequent to getting every one of the elements right, I would recommend you to escape the trade booking the misfortune assuming your stop misfortune gets hit.
+ </p>
+ <br>
+  <p>
+    Everyone's trading journey involves taking losses. Therefore, if something does not move in accordance with your analysis, do not be afraid to pursue it.
+  </p>
+ 
+
+
+
+
+
+
+     
+
+      
+
+
+
+
+
+
+
+
+
+
+        <div class="w-full border-b border-white mt-4 mb-4">
+          <div class="w-full border-b border-black  ">
+          </div>
+        </div>
+       
+
+
+
+
+
+
+
+
+
+
+        <div class="flex justify-between items-center">
+          <a href="/chartpattern3copy.html">
+            <button type="button" class="text-black ml-full bg-gradient-to-r from-gray-500 to-gray-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center
+               dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> <img src="imgs\icons8-left-94.png"
+                class="h-8 mr-4">
+              PREVIOUS
+
+            </button>
+          </a>
+          <a href="/doublecandel.html#">
+            <button type="button" class="text-black mr-full  bg-gradient-to-r from-gray-500 to-gray-600  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center
+             dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              NEXT
+              <img src="imgs\icons8-right-94.png" class="h-8 ml-4">
+            </button>
+
+          </a>
+        </div>
+
+
+
+
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+
+
+
+
+
+
+
+
+
+  <!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!--  Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="index.js"></script>
+
+
+
+
+
+  <script>
+
+    const themeToggle = document.querySelector('#theme-toggle');
+    const body = document.querySelector('body');
+    const switchButton = document.querySelector('#switch');
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark');
+      if (body.classList.contains('dark')) {
+        switchButton.style.transform = 'translateX(100%)';
+      } else {
+        switchButton.style.transform = 'translateX(0)';
+      }
+    });
+  </script>
+</body>
+
+</html>

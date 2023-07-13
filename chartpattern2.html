@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Chart Pattern 2</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="png.img\elite.png" rel="icon">
+  <link href="png.img\elite.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!--  Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css">
+
+
+  <!-- JavaScript libraries -->
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="/assets/css/darkmode.css">
+
+ 
+
+</head>
+
+
+
+<body>
+
+
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none mt-16"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="png.img\elite.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Elite Trader</a></h1>
+        <!--
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
+
+        </div>
+-->
+
+
+
+
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <h1 class="text-white text-2xl">Price Action</h1>
+          <li><a href="/support&resistance.html" class="nav-link scrollto "> <span>1. Support And Resistance</span></a></li>
+          <li><a href="/MarketStages.html" class="nav-link scrollto "><span>2. Market Stages</span></a></li>
+          <li><a href="/Trending&ranging.html" class="nav-link scrollto"> <span>3. Trending and Ranging Market</span></a></li>
+          <li><a href="/candelpattern.html" class="nav-link scrollto"><span>4. Candlestick Patterns</span></a></li>
+          <li><a href="/AdvancedCandlestick.html" class="nav-link scrollto"><span>5. Advanced Candlestick Analysis</span></a></li>
+
+          <li><a href="/chartpattern.html" class="nav-link scrollto active"><span>6. Chart Patterns</span></a></li>
+          <li><a href="/Volume.html" class="nav-link scrollto"> <span>7. Volume</span></a></li>
+
+                   
+<li><b><a href="/psychology.html ">--> Trading Psychology</a></b></li>
+<li><b><a href="/riskM.html">--> Risk Management</a></b></li>
+<li><b><a href="/positionSize.html">--> Position Sizing</a></b></li>
+<li><b><a href="/SmartMoney.html">--> Smart Money Concept</a></b></li>
+<li><b><a href="/TradingJournal.html">--> Trading Journaling</a></b></li>
+<li><b><a href="/SentimentAnalysis.html">--> Sentiment Analysis</a></b></li>
+<li><b><a href="/FundamentalAnalysis.html">--> Fundamental Analysis</a></b></li>
+<li><b><a href="/IntermarketAnalysis.html">--> Intermarket Analysis</a></b></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="inner-page  pt-0 md:w-3/4">
+
+
+      <nav class="bg-gray-800 border-b border-white mb-4">
+        <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex-shrink-0">
+
+              <div class=" md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
+                  <a href="/index.html" class="text-green-400 hover:text-red-400 text-lg font-medium">Home</a>
+                 
+
+                  <button id="theme-toggle" class="bg-gray-200 shadow-md hover:bg-gray-300 rounded  ">
+                    <span class="text-xs text-black"><b>DarkMode</b></span>
+                    <span class="w-8 h-4 flex border-black  border-2  rounded-full mx-8   ">
+                      <span class="bg-blue-500 w-3 h-3 rounded-full  shadow-md transform duration-300 ease-in-out"
+                        id="switch"></span>
+                    </span>
+                  </button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+      <div class="d-flex justify-content-between align-items-center mt-2 ">
+        <h1 class="text-2xl ml-2"><b>6. CHART PATTERNS</b></h1><br>
+
+
+      </div>
+
+
+
+      <div class="flex flex-wrap mt-4">
+
+
+
+        <div class="container mt-2 bg-gradient-to-r from-gray-900 to-gray-800 md:w-1/3 w-full">
+
+          <div class="ml-2 text-white"><b>1.  Reversal Chart Patterns</b><br></div>
+          <div class="ml-4 text-yellow-600">
+            <a class="ml-3" href="/chartpattern.html#topic01"><b>i. Head and Shoulder </b></a><br>
+            <a class="ml-3" href="/chartpattern.html#topic02"><b>ii. Inverted Head and Shoulder</b></a><br>
+            <a class="ml-3" href="/chartpattern.html#topic03"><b>iii. Double Top</b></a><br>
+            <a class="ml-3" href="/chartpattern.html#topic04"><b>iv. Double Bottom</b></a><br>
+            <a class="ml-3" href="/chartpattern.html#topic05"><b>v. Rounding Bottom</b></a><br>
+            <a class="ml-3" href="/chartpattern.html#topic06"><b>vi. Rounding Top</b></a><br>
+          </div>
+          <a href="/chartpattern.html#mtopic01">
+
+            <button type="button"
+              class="text-white  mt-1 ml-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              GO <svg aria-hidden="true" class="w-5 h-5 ml-1 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </a>
+
+
+
+        </div>
+
+
+        <div class="container bg-gradient-to-r from-gray-900 to-gray-800 mt-2  md:w-1/3 w-full">
+
+
+          <div class="ml-2 text-white"><b>2. Continuation Chart Patterns</b><br></div>
+          <div class="ml-4 text-yellow-600">
+            <a class="ml-3" href="#topic011"><b>i.Ascending Triangle
+            </b></a><br>
+          <a class="ml-3" href="#topic012"><b>ii. Descending Triangle
+              </b></a><br>
+          <a class="ml-3" href="#topic013"><b>iii. Bullish Rectangle  </b></a><br>
+          <a class="ml-3" href="#topic014"><b>iv. Bearish Rectangle </b></a><br>
+          <a class="ml-3" href="#topic015"><b>v. Cup and Handle </b></a><br>
+          <a class="ml-3" href="#topic016"><b>vi. Inverted  Cup and Handle  </b></a><br>
+
+          </div>
+        
+
+
+
+
+        </div>
+
+
+        <div class="container bg-gradient-to-r from-gray-900 to-gray-800 mt-2  md:w-1/3 w-full">
+
+
+          <div class="ml-2 text-white"><b>3.  Neutral Chart Pattern</b><br></div>
+          <div class="ml-4 text-yellow-600">
+            <a class="ml-3" href="/chartpattern3copy.html#topic021"><b>i. Rising Channel</b></a><br>
+            <a class="ml-3" href="/chartpattern3copy.html#topic022"><b>ii. Falling Channel 
+                </b></a><br>
+            <a class="ml-3" href="/chartpattern3copy.html#topic023"><b>iii. Rising Wedge
+                </b></a><br>
+            <a class="ml-3" href="/chartpattern3copy.html#topic024"><b>iv. Falling Wedge</b></a><br>
+            <a class="ml-3" href="/chartpattern3copy.html#topic025"><b>v. Symmetrical Triangle</b></a><br><br>
+
+
+          </div>
+
+          <a href="/chartpattern3copy.html#mtopic03">
+            <button type="button"
+              class="text-white  mt-2 ml-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              GO <svg aria-hidden="true" class="w-5 h-5 ml-1 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </a>
+
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page md:w-3/4">
+      <div class="container">
+
+<h1 class="text-2xl" id="mtopic02"> Continuation Chart Patterns :-</h1>
+    <li>Ascending Triangle</li>
+    <li> Descending Triangle</li>
+    <li>Bullish Rectangle Pattern</li>
+    <li>Bearish Rectangle Pattern</li>
+    <li>Cup and Handle Pattern</li>
+    <li>Inverted Cup and Handle </li>
+
+
+    <br>
+    <br>
+    <br>
+
+    <h1 class="text-2xl" id="topic011"><b>1. Ascending Triangle Pattern</b></h1>
+    <br>
+    <p>It is a bullish continuation pattern that forms during an uptrend and indicates that the security's price will continue to rise after the pattern is completed. </p>
+<br>
+     <p> When the price breaks through the pattern, it demonstrates that buyers are becoming extremely aggressive and are likely to push prices even higher.</p>
+
+<br>
+    
+
+<div class="w-full m-0 p-2">
+  <img src="chartpatern\My  Trading Web\74.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<div class="w-full m-0 p-2">
+  <img src="chartimg\Screenshot (111).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+
+   <p>This pattern is framed between a rising lower pattern line (Support Line) and a level flat pattern line (Resistance Line). As the price continues to make higher lows, this demonstrates a continuation of the current trend and indicates that buyers are more aggressive than sellers. </p>
+
+<br>
+
+<p>The pattern is supposed to be finished just when a breakout occurs on the continuation side, i.e., price breaks the resistance. This is when; a long entry is taken in the security.
+</p>
+
+<br>
+
+<p>Because it is a powerful continuation chart pattern, a trader who missed the uptrend earlier can take advantage of this opportunity to enter the security when it breaks higher.</p>
+
+<br>
+<p>The potential target for the pattern is normally calculated by projecting the height of the ascending triangle at its thickest point above the breakout point.
+</p>
+
+<br>
+<p>The stop loss will be set at the swing low in the event of this pattern, which occurs just before the price breaks the resistance on the upside. We will have a good risk-to-reward ratio as a result of this.</p>
+
+
+<br>
+<p>If you observe high volumes during the uptrend, flat or low volumes during the consolidation period when the price is in the triangle, and again increased volume upon a breakout, the pattern is thought to be more reliable.</p>
+
+<br>
+
+
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+<br>
+<br>
+
+<h1 class="text-2xl" id="topic012"><b>2. Descending Triangle - </b></h1>
+<br>
+
+<p> It is a bearish continuation pattern that forms during a downtrend and indicates that, upon completion, the security's price will continue to trend lower.</p>
+
+<br>
+<p>When the price breaks through the pattern, this pattern indicates that sellers are becoming extremely aggressive and are likely to lower prices even further.</p>
+
+
+
+
+<div class="w-full m-0 p-2">
+  <img src="chartpatern\My  Trading Web\75.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+
+
+
+<p>This pattern is created by a falling upper trend line (Resistance Line) and a flat horizontal trend line (Support Line), as shown in the chart above. As the price continues to make lower highs, this demonstrates a continuation of the current trend and indicates that sellers are more aggressive than buyers. </p>
+
+<br>
+<p> When price breaks the support, or breakout on the continuation side, the pattern is said to be complete. This is when; a short entry is taken in the security.
+</p>
+
+<br>
+<p> Typically, the height of the descending triangle at its thickest point is projected below the breakout point to determine the pattern's potential target.</p>
+
+<br>
+<p> The stop loss will be set at the swing high in this pattern, which occurs just before the price breaks the support on the downside.</p>
+
+<br>
+<p> If you observe high volumes during the downtrend, flat or low volumes during the consolidation period when the price is in the triangle, and again increased volume upon a breakout, the pattern is thought to be more reliable.</p>
+
+
+
+
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+<br>
+<br>
+
+<h1 class="text-2xl" id="topic013"><b>3. Bullish Rectangle -</b></h1>
+
+<br>
+<p> It is a bullish continuation pattern that forms during an uptrend and indicates that the security's price will continue to rise after the pattern is completed.</p> 
+
+
+<div class="w-full m-0 p-2">
+  <img src="chartpatern\My  Trading Web\76.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+<div class="w-full m-0 p-2">
+  <img src="chartimg\Screenshot (112).png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+
+<p>This pattern demonstrates that buyers and sellers were engaged in a tug-of-war, with the buyers ultimately winning when price broke out to the upside. As a result, buyers become more aggressive and raise the price even further.</p>
+
+<br>
+<p> This pattern is formed between a flat upper trend line (Resistance Line) and a flat lower trend line (Support Line), as shown in the on the above image.</p>
+
+<br>
+<p>The pattern is supposed to be finished just when a breakout occurs on the continuation side, i.e., price breaks the resistance. This is when; a long entry is taken in the security.
+</p>
+
+
+<br>
+<p> Because it is a powerful continuation chart pattern, a trader who missed the uptrend earlier can take advantage of this opportunity to enter the security when it breaks higher.</p>
+
+<br>
+<p>Typically, the height of the rectangle, or the distance between the two flat trend lines above the breakout point, is used to calculate the pattern's potential target.</p>
+
+<br>
+<p>The stop loss will be set at the swing low in the event of this pattern, which occurs just before the price breaks the resistance on the upside. </p>
+
+<br>
+<p> If you observe high volumes during the uptrend, flat or low volumes during the consolidation period when the price is in the rectangle, and again increased volume when a breakout occurs, the pattern is thought to be more reliable.</p>
+
+
+
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+<br>
+<br>
+
+<h1 class="text-2xl" id="topic014"><b>4. Bearish Rectangle -</b></h1>
+
+<br>
+<p> It is a bearish continuation pattern that forms during a downtrend and indicates that, upon completion, the security's price will continue to trend lower.</p>
+
+<br>
+<p> This pattern demonstrates that sellers and buyers were engaged in a tug-of-war, with the sellers ultimately winning when price broke down. As a result, sellers became more aggressive and reduced the price even further.</p>
+
+
+<div class="w-full m-0 p-2">
+  <img src="chartpatern\My  Trading Web\77.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+
+
+<p>As seen in the chart above, this pattern is formed between a flat upper trend line (Resistance Line) and a flat lower trend line (Support Line).
+</p>
+
+<br>
+<p> When price breaks the support, or breakout on the continuation side, the pattern is said to be complete. This is when; a short entry is taken in the security.
+</p>
+
+<br>
+<p> Typically, the height of the rectangle, or the distance between the two flat trend lines below the breakout point, is used to project the pattern's potential target.</p>
+
+<br>
+<p> In case of this pattern, the stop loss will be set at the swing high, which occurs just before the price breaches the support on the downside, as depicted in the previous figure.</p>
+
+<br>
+<p>If you observe high volumes during the downtrend, flat or low volumes during the consolidation period when the price is in the rectangle, and again increased volume when a breakout occurs, the pattern is thought to be more reliable. </p>
+
+
+
+
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+<br>
+<br>
+
+<h1 class="text-2xl" id="topic015"><b>5. Cup and Handle -</b></h1>
+
+<br>
+<p> It is a bullish continuation pattern that forms during an uptrend and indicates that the security's price will continue to rise after the pattern is completed.</p>
+
+<br>
+<p> The shape of the pattern, which is similar to a standard tea cup with a handle, gives it its name.</p>
+
+<br>
+<p> It is one of the patterns that occurs the most frequently and is used worldwide to identify a dominant uptrend for long positions.</p>
+
+<br>
+<p>
+  This pattern is characterized by a cup or a bowl shape which goes about as a base for the example addressing a time of union followed by a handle that is twisting on lower side addressing a short pullback. An even line drawn at the highest point of the cup is known as the neck area.
+</p>
+
+
+<div class="w-full m-0 p-2">
+  <img src="chartpatern\My  Trading Web\78.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+
+
+<p>
+  When the price breaks the neckline on the upside following the formation of a handle, the pattern is said to be complete. When this occurs, a lengthy security entry is made.
+</p>
+
+<br>
+<p>
+  Because it is a powerful continuation chart pattern, a trader who missed the uptrend earlier can take advantage of this opportunity to enter the security when it breaks higher.
+</p>
+
+<br>
+<p>Typically, the height of the cup, or the distance between the neckline and the bottom of the cup above the breakout point, is used to calculate the pattern's potential target.</p>
+
+<br>
+<p>
+  In case of this pattern, the stop loss for this pattern is located at the pattern's handle's lowest point.
+</p>
+
+<br>
+<p>
+  When the price breaks above the neckline, it is thought that the pattern is more reliable if there is a significant increase in volume.
+</p>
+
+
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+<br>
+<br>
+
+<h1 class="text-2xl" id="topic016"><b>6. Inverted Cup and Handle -</b></h1>
+
+<br>
+<p> It is an inverted version of the Cup and Handle Pattern, as the name suggests.</p>
+
+<br>
+<p>
+  It is a bearish continuation pattern that forms during a downtrend and indicates that, upon completion, the security's price will continue to trend lower.
+</p>
+
+<br>
+<p>It is one of the most frequently observed patterns that is used worldwide to identify dominant downtrends for short positions. </p>
+
+<br>
+<p> The shape of this pattern is an inverted cup or bowl that serves as the pattern's top and represents a period of consolidation. It is followed by a handle that bends higher on one side and represents a brief pullback.</p>
+
+
+
+<div class="w-full m-0 p-2">
+  <img src="chartpatern\My  Trading Web\79.png"
+    class="md:w-2/ h-auto  object-cover object-center mx-auto mt-4 mb-" />
+</div>
+
+<p> The neckline is a horizontal line drawn at the bottom of the inverted cup.</p>
+
+<br>
+<p>
+  When the price breaks the neckline on the downside following the formation of a handle, the pattern is said to be complete. This is when a short entry is taken in the security.
+
+</p>
+
+<br>
+<p> The potential target for the pattern is normally calculated projecting the height of the cup i.e., height between the neckline and top of the inverted cup below the breakout point.
+</p>
+
+<br>
+<p>
+  In the event of this pattern, the stop loss is set at the most highest mark of the handle of the pattern as displayed in the figure above.
+</p>
+
+
+<br>
+<p> 
+  When the price breaks below the neckline, a significant rise in volume is considered to be more reliable for the pattern.
+</p>
+
+
+
+<div class="w-full border-b border-white mt-4 mb-4">
+  <div class="w-full border-b border-black  ">
+  </div>
+</div>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="flex justify-between items-center">
+          <a href="/chartpattern.html">
+            <button type="button" class="text-black ml-full bg-gradient-to-r from-gray-500 to-gray-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center
+               dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> <img src="imgs\icons8-left-94.png"
+                class="h-8 mr-4">
+              PREVIOUS
+
+            </button>
+          </a>
+          <a href="/chartpattern3copy.html">
+            <button type="button" class="text-black mr-full  bg-gradient-to-r from-gray-500 to-gray-600  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center
+             dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              NEXT
+              <img src="imgs\icons8-right-94.png" class="h-8 ml-4">
+            </button>
+
+          </a>
+        </div>
+
+
+
+
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+
+
+
+
+
+
+
+
+
+  <!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!--  Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="index.js"></script>
+
+
+
+
+
+  <script>
+
+    const themeToggle = document.querySelector('#theme-toggle');
+    const body = document.querySelector('body');
+    const switchButton = document.querySelector('#switch');
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark');
+      if (body.classList.contains('dark')) {
+        switchButton.style.transform = 'translateX(100%)';
+      } else {
+        switchButton.style.transform = 'translateX(0)';
+      }
+    });
+  </script>
+</body>
+
+</html>

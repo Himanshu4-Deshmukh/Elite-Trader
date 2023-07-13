@@ -1,0 +1,34 @@
+ 
+/* Light Mode */
+:root {
+  --bg-color: #1f1f29;
+  --text-color: #ffffff;
+  --accent-color: #4F46E5;
+
+}
+
+/* Dark Mode */
+.dark {
+  --bg-color: #f5f5fa;
+  --text-color: #000000;
+  --accent-color: #10B981;
+
+}
+
+body {
+  background-color: var(--bg-color);
+
+  color: var(--text-color);
+
+}
+
+#switch {
+  transform: translateX(0);
+  background-color: var(--accent-color);
+}
+
+.dark #switch {
+  transform: translateX(100%);
+  background-color: var(--accent-color);
+}
+ 
